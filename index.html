@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="course home page ">
+    <meta name="author" content="Diego Ortega Kapellmann">
+    <link rel="stylesheet" href="styles/stlye.css">
+    <link rel="stylesheet" href="styles/styles-small.css">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+    <title>WDD 231 - Index</title>
+</head>
+<body>
+    <main>
+        <header>
+                <img src="images/profile_optimized.jpg" alt="Diego Ortega" class="profile-img">
+            </span>
+            <span >
+                <h1 class="profile-name">Diego Ortega Kapellmann</h1>
+            </span>
+            <button class="hamburger" id="menu-toggle">☰</button>
+        </header>
+                <nav id="nav-menu">
+                    <a href="index.html">Home</a>
+                    <a href="">Chamber</a>
+                    <a href="">Github profile</a>
+                    <a href="">LinkedIn</a>
+                </nav>
+        
+        <h1>HOME</h1>
+        <section>
+            <h2>COURSE WORK</h2>
+            <ul>
+                <li>Course 1</li>
+                <li>Course 2</li>
+                <li>Course 3</li>
+            </ul>
+        </section>
+        <section>
+            <h2>TOLUCA, MEXICO</h2>
+            <img src="images/nevado-de-toluca.webp" alt="Nevado de Toluca">
+            <p>Nevado de Toluca it was a volcano, now its a wonderfull place to visit</p>
+        </section>
+        <section>
+            <h2>WEB AND COMPUTER PROGRAMMING CERTIFICATE</h2>
+            <div class="filter-buttons">
+                <button onclick="filterCourses('all')">All</button>
+                <button onclick="filterCourses('CSE')">CSE</button>
+                <button onclick="filterCourses('WDD')">WDD</button>
+            </div>
+            <div id="courses"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> &#128640; Diego Ortega Kapellmann &#128640; Toluca, Mexico</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
