@@ -1,0 +1,13 @@
+
+/* Media Query for larger screens */
+@media (min-width: 601px) {
+    nav {
+        display: flex; /* Flex layout for nav on larger screens */
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    button.hamburger {
+        display: none; /* Hide hamburger on larger screens */
+    }
+}

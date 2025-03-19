@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Sunshine Bakery",
+        "address": "123 Main St, Springfield",
+        "phone": "(555) 123-4567",
+        "website": "http://sunshinebakery.com",
+        "image": "sunshine.jpg",
+        "membershipLevel": 3,
+        "description": "Family-owned bakery offering fresh bread and pastries."
+    },
+    {
+        "name": "Tech Solutions",
+        "address": "456 Tech Ave, Springfield",
+        "phone": "(555) 987-6543",
+        "website": "http://techsolutions.com",
+        "image": "tech.jpg",
+        "membershipLevel": 2,
+        "description": "IT support and software development services."
+    },
+    {
+        "name": "Green Thumb Gardening",
+        "address": "789 Garden Rd, Springfield",
+        "phone": "(555) 321-7890",
+        "website": "http://greenthumb.com",
+        "image": "garden.jpg",
+        "membershipLevel": 1,
+        "description": "Landscaping and garden maintenance services."
+    },
+    {
+        "name": "Fitness First Gym",
+        "address": "321 Workout Blvd, Springfield",
+        "phone": "(555) 654-3210",
+        "website": "http://fitnessfirst.com",
+        "image": "fitness.jpg",
+        "membershipLevel": 3,
+        "description": "State-of-the-art gym and fitness classes."
+    },
+    {
+        "name": "Springfield Bookstore",
+        "address": "101 Book Ln, Springfield",
+        "phone": "(555) 555-0123",
+        "website": "http://springfieldbooks.com",
+        "image": "bookstore.jpg",
+        "membershipLevel": 1,
+        "description": "Local bookstore with a wide selection of titles."
+    },
+    {
+        "name": "Auto Hub",
+        "address": "202 Car St, Springfield",
+        "phone": "(555) 876-5432",
+        "website": "http://autohub.com",
+        "image": "autohub.jpg",
+        "membershipLevel": 2,
+        "description": "Comprehensive car repair and maintenance."
+    },
+    {
+        "name": "Chamber Coffee Co.",
+        "address": "303 Java Rd, Springfield",
+        "phone": "(555) 111-2222",
+        "website": "http://chambercoffee.com",
+        "image": "coffee.jpg",
+        "membershipLevel": 3,
+        "description": "Locally roasted coffee and pastries."
+    }
+]
