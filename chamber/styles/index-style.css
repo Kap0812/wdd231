@@ -6,6 +6,57 @@
     font-family: Arial, sans-serif;
 }
 
+.slider-box{
+    width: 1280px;
+    height: auto;
+    margin: 50px auto 0;
+}
+
+.slider-box ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out; 
+}
+
+.slider-box li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.text{
+    position: absolute;
+    text-align: center;
+    padding: 0 250px;
+    top: 250px;
+    color: #ddd;
+}
+
+.text h2{
+    font-size: 45px;
+    margin-bottom: 35px;
+}
+
+.slider-box img{
+    width: 100%;
+}
+
+@keyframes slide{
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+    
+    25% { margin-left: -100%; }
+    45% { margin-left: -100%; }
+    
+    50% { margin-left: -200%; }
+    70% { margin-left: -200%; }
+
+    75% { margin-left: -300%; }
+    100% { margin-left: -300%; }
+}
+
 body {
     background-color: #f4f4f4;
     color: #2b2447;
@@ -76,12 +127,6 @@ button.hamburger:focus {
 }
 
 /* Hero Section */
-.hero {
-    background: #2f5863;
-    color: #fff;
-    padding: 3rem;
-    text-align: center;
-}
 
 .hero-button {
     margin-top: 1rem;

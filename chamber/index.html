@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="course home page ">
     <meta name="author" content="Diego Ortega Kapellmann">
-    <meta property="og:title" content="Chamber of Commerce Directory">
+    <meta property="og:title" content="Chamber of Commerce home page">
     <meta property="og:type" content="website">
     <meta property="og:image" content="world.ico">
     <meta property="og:url" content="https://example.com/directory.html">
-    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="stylesheet" href="styles/index-style.css">
     <link rel="stylesheet" href="styles/styles-small.css">
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
@@ -24,7 +24,7 @@
             <h1>Mexico Chamber of Commerce</h1>
             <button class="hamburger" id="menu-toggle">☰</button>
             <nav id="nav-menu" class="hidden">
-                <a href="index.html">Home</a>
+                <a href="#">Home</a>
                 <a href="#">Directory</a>
                 <a href="#">Join</a>
                 <a href="#">Discover</a>
@@ -32,10 +32,25 @@
             </nav>
         </div>
     </header>
-    <section class="hero">
-        <h2>Welcome to Mexico Chamber of Commerce</h2>
-        <button class="hero-button">Keynote Tickets</button>
-    </section>
+    <div class="slider-box">
+        <ul>
+            <li>
+                <img src="images/yucatan-cenotes.webp" alt="Cenote from cancun, Mexico">
+                <div class="text">
+                    <h2>Welcome to the Amazing Cenotes</h2>
+                    <button class="hero-button">Visit Now</button>
+                </div>
+            </li>
+            <li>
+                <img src="images/mexico-cenote.webp" alt="">
+                <div class="text">
+                    <h2>Explore the incredible mayan views</h2>
+                    <button class="hero-button">Visit Now</button>
+                </div>
+            </li>
+        </ul>
+
+    </div>
     <main>
         <section class="info-grid">
             <article class="events">
