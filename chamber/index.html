@@ -10,10 +10,10 @@
     <meta property="og:image" content="world.ico">
     <meta property="og:url" content="https://example.com/directory.html">
     <link rel="stylesheet" href="styles/index-style.css">
-    <link rel="stylesheet" href="styles/styles-small.css">
+    <script src="scripts/weather.js" defer></script>
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/slides.js" defer></script>
     <title>Mexico Chamber page</title>
     <link rel="icon" href="images/world.ico">
 </head>
@@ -24,8 +24,8 @@
             <h1>Mexico Chamber of Commerce</h1>
             <button class="hamburger" id="menu-toggle">☰</button>
             <nav id="nav-menu" class="hidden">
-                <a href="#">Home</a>
-                <a href="#">Directory</a>
+                <a href="index.html">Home</a>
+                <a href="directory.html">Directory</a>
                 <a href="#">Join</a>
                 <a href="#">Discover</a>
                 <button class="dark-mode-toggle">🌙</button>
@@ -35,16 +35,23 @@
     <div class="slider-box">
         <ul>
             <li>
-                <img src="images/yucatan-cenotes.webp" alt="Cenote from cancun, Mexico">
+                <img src="images/yucatan-cenotes.png" alt="Cenote from Yucatan, Mexico" loading="lazy">
                 <div class="text">
                     <h2>Welcome to the Amazing Cenotes</h2>
                     <button class="hero-button">Visit Now</button>
                 </div>
             </li>
             <li>
-                <img src="images/mexico-cenote.webp" alt="">
+                <img src="images/tulum.png" alt="cenote from cancun">
                 <div class="text">
                     <h2>Explore the incredible mayan views</h2>
+                    <button class="hero-button">Visit Now</button>
+                </div>
+            </li>
+            <li>
+                <img src="images/mexico-cenote.png" alt="Cenote from Xel-ha Mexico">
+                <div class="text">
+                    <h2>Connect with nature</h2>
                     <button class="hero-button">Visit Now</button>
                 </div>
             </li>
@@ -57,13 +64,17 @@
                 <h2>Events</h2>
                 <p>Upcoming events and announcements.</p>
             </article>
-            <article class="weather">
-                <h2>Current Weather</h2>
-                <p>75°F - Partly Cloudy</p>
-                <p>High: 85°F | Low: 52°F</p>
-                <p>Humidity: 34%</p>
-                <p>Sunrise: 7:30 AM | Sunset: 9:59 PM</p>
-            </article>
+            <section id="weather">
+                <article>
+                    <div class="card">
+                     <h2 id="town"></h2>
+                     <img id="graphic" src="" alt="">
+                     <p id="description"></p>
+                     <p id="humidity"></p>
+                     <p id="temperature"></p>
+                    </div>
+                </article>
+            </section>
             <article class="forecast">
                 <h2>Weather Forecast</h2>
                 <p>Today: 90°F</p>
