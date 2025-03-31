@@ -183,6 +183,42 @@ footer {
     opacity: 0.8;
 }
 
+#spotlight {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff3cd;
+    margin: 2rem auto;
+    border-radius: 10px;
+}
+
+.spotlight-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.spotlight-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.spotlight-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.membership-level {
+    font-weight: bold;
+    color: #b8860b;
+}
+
 /* Media Query for Larger Screens */
 @media (min-width: 601px) {
     nav {
