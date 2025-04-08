@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Toluca Cathedral",
+        "image": "images/toluca-cathedral.webp",
+        "address": "Calle Independencia, Toluca, Mexico",
+        "description": "A historic cathedral located in the heart of Toluca."
+    },
+    {
+        "title": "Nevado de Toluca",
+        "image": "images/nevado.webp",
+        "address": "Parque Nacional Nevado de Toluca, Mexico",
+        "description": "A stunning extinct volcano and popular hiking destination."
+    },
+    {
+        "title": "Cosmovitral Botanical Garden",
+        "image": "images/cosmovitral.webp",
+        "address": "Av. Lerdo de Tejada, Centro, Toluca, Mexico",
+        "description": "Famous for its stained glass murals and lush botanical exhibits."
+    },
+    {
+        "title": "Zoológico de Zacango",
+        "image": "images/zacango-zoo.webp",
+        "address": "Calzada al Zoológico s/n, Calimaya, Mexico",
+        "description": "One of Mexico’s largest zoos, home to exotic and native species."
+    },
+    {
+        "title": "Museo de Bellas Artes",
+        "image": "images/museo-bellas-artes.webp",
+        "address": "Santos Degollado, Toluca, Mexico",
+        "description": "An art museum featuring colonial and modern Mexican works."
+    },
+    {
+        "title": "Plaza de los Mártires",
+        "image": "images/plaza-martires.webp",
+        "address": "Centro Histórico, Toluca, Mexico",
+        "description": "A historic public square surrounded by important government buildings."
+    },
+    {
+        "title": "Calixtlahuaca Archaeological Zone",
+        "image": "images/calixtlahuaca.webp",
+        "address": "San Francisco Calixtlahuaca, Toluca, Mexico",
+        "description": "An ancient Matlatzinca site with a circular temple to the wind god Ehecatl."
+    },
+    {
+        "title": "La Marquesa National Park",
+        "image": "images/la-marquesa.webp",
+        "address": "Carretera México-Toluca, Ocoyoacac, Mexico",
+        "description": "A scenic forested area great for outdoor activities like ATV riding and hiking."
+    }
+]
