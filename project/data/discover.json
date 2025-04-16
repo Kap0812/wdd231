@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Faith",
+    "description": "Faith is the substance of things hoped for.",
+    "image": "images/faith.webp",
+    "scripture": "Hebrews 11:1"
+  },
+  {
+    "title": "Charity",
+    "description": "Charity is the pure love of Christ.",
+    "image": "images/charity.webp",
+    "scripture": "Moroni 7:47"
+  },
+  {
+    "title": "Love",
+    "description": "Love is the greatest commandment.",
+    "image": "images/love.webp",
+    "scripture": "Matthew 22:37–39"
+  },
+  {
+    "title": "Peace",
+    "description": "Christ gives us peace unlike the world.",
+    "image": "images/atonement.webp",
+    "scripture": "John 14:27"
+  },
+  {
+    "title": "Prayer",
+    "description": "Ask, and it shall be given you.",
+    "image": "images/prayer.jpg",
+    "scripture": "Matthew 7:7"
+  },
+  {
+    "title": "Hope",
+    "description": "Rejoice in hope, be patient in tribulation.",
+    "image": "images/hope.webp",
+    "scripture": "Romans 12:12"
+  },
+  {
+    "title": "Forgiveness",
+    "description": "Forgive, and ye shall be forgiven.",
+    "image": "images/forgivness.webp",
+    "scripture": "Luke 6:37"
+  },
+  {
+    "title": "Service",
+    "description": "When ye are in the service of your fellow beings...",
+    "image": "images/mission.jpg",
+    "scripture": "Mosiah 2:17"
+  
+  },
+  {
+    "title": "Atonement",
+    "description": "greater love hath no man than this,",
+    "image": "images/garden.webp",
+    "scripture": "John 15:13"
+  
+  }
+]
